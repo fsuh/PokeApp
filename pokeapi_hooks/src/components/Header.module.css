@@ -1,0 +1,15 @@
+.header{
+    background: salmon;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header h3{
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-decoration-line: none;
+}
