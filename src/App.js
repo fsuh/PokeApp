@@ -10,7 +10,7 @@ import PokeSingle from './components/PokeSingle';
 const RouterWrapper =(props) =>{
   const params = useParams();
 
-  return <PokeSingle params={params} {...props}/>
+  return <PokeSingle params={params} {...props}/> // note that the ...props  is passing noting but note you can use it to pass data to the pokeSingle.
 
 }
 
